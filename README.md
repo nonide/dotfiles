@@ -1,6 +1,11 @@
-# VIM CONFIG
+These are my personal dotfiles.
 
-* git clone https://github.com/nonide/vim-config
+### Getting started
+
+* git clone https://github.com/nonide/dotfiles
+
+## Vim
+
 * cd vim-config
 * cp .vimrc ~/.vimrc
 * vim +PlugInstall
