@@ -39,13 +39,14 @@ let g:airline#extensions#tabline#enabled = 1
 " Config for handlebars
 let g:mustache_abbreviations = 1
 
-" Config for linters
+" Config for syntastic (linter)
 let g:syntastic_javascript_checkers = ['jscs', 'jshint']
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_error_symbol = '✗'
 let g:syntastic_warning_symbol = '⚠'
 let g:syntastic_style_error_symbol = '✗'
 let g:syntastic_style_warning_symbol = '⚠'
+let g:syntastic_php_checkers = ['php', 'phpcs']
 
 " Config for keyboard
 imap jk <Esc>
